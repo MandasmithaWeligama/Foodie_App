@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(151, 204, 208);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.user-profile-image{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.post-profile-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post-comment-profile-image{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.comment-div{
+  background-color: rgb(219, 218, 218);
+}
+
+.react-icons:hover{
+  color: rgb(0, 97, 154);
+  transform: scale(1.1);
+}
+
+.newusercard {
+  transition: transform 0.2s ease;
+  background-color: rgb(241, 241, 241);
+}
+
+.newusercard:hover {
+  transform: scale(1.1);
+}
+.post-card{
+  background-color: aliceblue;
+}
